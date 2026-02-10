@@ -5,6 +5,7 @@ Nos enfocaremos principalmente en la fase ventilación mecánica durante el cual
 
 Las dos fases principales de la ventilación mecánica son la inspiración y la espiración, durante la inspiración se contrae el diafragma aplanandose y descendiendo, esto aumenta
 <img width="250" height="346" alt="Image" src="https://github.com/user-attachments/assets/9ec903b8-fe2b-4ae3-9821-fb3c8d7d02e3" />
+<img width="250" height="346" alt="sistema respiratorio2" src="https://github.com/user-attachments/assets/018934f6-bbfd-433c-9d36-e9c47c49ba1d" />
 
 ## Selección del sensor
 
