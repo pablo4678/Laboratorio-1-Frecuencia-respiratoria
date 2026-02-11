@@ -28,7 +28,10 @@ Evaluar la influencia del habla en el patrón respiratorio
 Durante el proceso de ventilación respiratoria, como mencionamos anteriormente, hay variaciones de presión; según Guyton, la presión alveolar varía desde el rango de -1 cmH2O hasta un máximo de 1 cm H₂O (-1,96 hPa - 1,96 hPa).
 
 El sensor bmp280 es un sensor de presión atmosférica. La resolución del mismo es de 0,16 Pa, a la vez que tiene una precisión relativa de ±0,12 Pa, por lo que consideramos que es adecuado para hacer una medición adecuada de los cambios de presión y poder usar los datos extraídos por el mismo para graficar el patrón respiratorio y calcular la frecuencia respiratoria.
+
+
 <img width="412" height="469" alt="image" src="https://github.com/user-attachments/assets/22df451b-1e0e-4d00-b0cf-89d5b3d824f4" />
+
 
 
 # Proceso de conversión analoga-digital
