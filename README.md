@@ -25,13 +25,14 @@ Evaluar la influencia del habla en el patrón respiratorio
 
 # Selección del sensor
 
-Durante el proceso de ventilación respiratoria, como mencionamos anteriormente, hay variaciones de presión; según Guyton, la presión alveolar varía desde el rango de -1 cmH2O hasta un máximo de 1 cm H₂O (-1,96 hPa - 1,96 hPa).
+Durante el proceso de ventilación respiratoria, como mencionamos anteriormente, hay variaciones de presión; según Guyton, la presión alveolar varía desde el rango de -1 cmH2O hasta un máximo de 1 cm H₂O (-1,96 hPa - 1,96 hPa) [4].
 
-El sensor bmp280 es un sensor de presión atmosférica. La resolución del mismo es de 0,16 Pa, a la vez que tiene una precisión relativa de ±0,12 Pa, por lo que consideramos que es adecuado para hacer una medición adecuada de los cambios de presión y poder usar los datos extraídos por el mismo para graficar el patrón respiratorio y calcular la frecuencia respiratoria.
+El sensor bmp280 es un sensor de presión atmosférica. La resolución del mismo es de 0,16 Pa, a la vez que tiene una precisión relativa de ±0,12 Pa, por lo que consideramos que es adecuado para hacer una medición adecuada de los cambios de presión y poder usar los datos extraídos por el mismo para graficar el patrón respiratorio y calcular la frecuencia respiratoria [5].
 
 
-<img width="412" height="469" alt="image" src="https://github.com/user-attachments/assets/22df451b-1e0e-4d00-b0cf-89d5b3d824f4" />
-
+<img width="412" height="469" alt="image" src="https://github.com/user-attachments/assets/22df451b-1e0e-4d00-b0cf-89d5b3d824f4" />\
+Figura 2. Variación de presiones durante la respiración\
+Fuente: Guyton [4].
 
 
 # Proceso de conversión analoga-digital
@@ -52,3 +53,7 @@ El sensor bmp280 es un sensor de presión atmosférica. La resolución del mismo
 [2] J. Canet, Fisiología respiratoria, 2006. [En línea]. Disponible en: http://www.scartd.org/arxius/fisioresp06.pdf
 
 [3] H. J. Huang, “The respiratory system,” en The Big Picture: Medical Biochemistry, L. W. Janson y M. E. Tischler, Eds. New York, NY, USA: McGraw-Hill Education, 2018.[En línea]. Disponible en:https://accessmedicine-mhmedical-com.ezproxy.umng.edu.co/content.aspx?bookid=2355&sectionid=185845306
+[4] J. E. Hall, Guyton and Hall Textbook of Medical Physiology, 13ª ed., Philadelphia, PA, USA: Elsevier, 2016.
+[5] Bosch Sensortec, “BMP280 Digital Pressure Sensor Datasheet,” datasheet, rev. 1.19, oct. 2021. [En línea].
+Disponible en: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf
+
