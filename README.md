@@ -1,5 +1,5 @@
 # Laboratorio-1-Frecuencia-respiratoria
-## Proceso respiratorio
+# Proceso respiratorio
 
 La respiración es un proceso fisiológico vital complejo, que se compone de tres fases principales: ventilación, intercambio gaseoso y utilización de oxígeno por los tejidos [1].
 Nos enfocaremos principalmente en la fase de ventilación mecánica, durante la cual el aire es transportado desde el exterior hasta los alveolos pulmonares; este proceso es posible debido a las propiedades mecánicas propias de los pulmones [2]. El sistema respiratorio está compuesto por: la nariz, la cavidad nasal, la laringe, la tráquea, los bronquiolos y los pulmones, además de otras estructuras que no conforman como tal parte del mismo, pero que desempeñan funciones importantes para su correcto funcionamiento, como las costillas y el diafragma y el sistema cardiovascular central, que proporciona arterias y venas pulmonares [3].
@@ -12,30 +12,30 @@ Las dos fases principales de la ventilación mecánica son la inspiración y la 
 
 Figura 1. Esquema del sistema respiratorio.  
 Fuente: Fox [1].
-## Objetivos de la práctica
-# Objetivo General
+# Objetivos de la práctica
+## Objetivo General
 Evaluar la influencia del habla en el patrón respiratorio
-# Objetivos Específicos
-Reconocer las variables físicas que se involucran en este proceso.
-Desarrollar un sistema que calcule la frecuencia respiratoria y el patrón respiratorio.
-Identificar cuando el sujeto está verbalizando, detectando cambios en los patrones respiratorios.
+## Objetivos Específicos
+-Reconocer las variables físicas que se involucran en este proceso.
+-Desarrollar un sistema que calcule la frecuencia respiratoria y el patrón respiratorio.
+-Identificar cuando el sujeto está verbalizando, detectando cambios en los patrones respiratorios.
 
-## Selección del sensor
-
-
-## Proceso de conversión analoga-digital
-
-## Procesamiento de la señal y obtención de la frecuencia respiratoria
+# Selección del sensor
 
 
-## Comparación de gráficas
+# Proceso de conversión analoga-digital
+
+# Procesamiento de la señal y obtención de la frecuencia respiratoria
 
 
-## Análisis en el dominio de la frecuencia
+# Comparación de gráficas
 
-## Análisis de resultados y conclusiones
 
-## Bibliografía
+# Análisis en el dominio de la frecuencia
+
+# Análisis de resultados y conclusiones
+
+# Bibliografía
 [1] S. Fox, Ed., Fisiología respiratoria, en Fisiología humana, 15.ª ed. New York, NY, USA: McGraw Hill Education, 2023. [En línea]. Disponible en: https://accessmedicina-mhmedical-com.ezproxy.umng.edu.co/content.aspx?bookid=3384&sectionid=281683931
 
 [2] J. Canet, Fisiología respiratoria, 2006. [En línea]. Disponible en: http://www.scartd.org/arxius/fisioresp06.pdf
