@@ -16,9 +16,9 @@ Fuente: Fox [1].
 ## Objetivo General
 Evaluar la influencia del habla en el patrón respiratorio
 ## Objetivos Específicos
--Reconocer las variables físicas que se involucran en este proceso.
--Desarrollar un sistema que calcule la frecuencia respiratoria y el patrón respiratorio.
--Identificar cuando el sujeto está verbalizando, detectando cambios en los patrones respiratorios.
+- Reconocer las variables físicas que se involucran en este proceso.
+- Desarrollar un sistema que calcule la frecuencia respiratoria y el patrón respiratorio.
+- Identificar cuando el sujeto está verbalizando, detectando cambios en los patrones respiratorios.
 
 # Selección del sensor
 
