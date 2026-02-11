@@ -4,7 +4,7 @@
 La respiración es un proceso fisiológico vital complejo, que se compone de tres fases principales: ventilación, intercambio gaseoso y utilización de oxígeno por los tejidos [1].
 Nos enfocaremos principalmente en la fase de ventilación mecánica, durante la cual el aire es transportado desde el exterior hasta los alveolos pulmonares; este proceso es posible debido a las propiedades mecánicas propias de los pulmones [2]. El sistema respiratorio está compuesto por: la nariz, la cavidad nasal, la laringe, la tráquea, los bronquiolos y los pulmones, además de otras estructuras que no conforman como tal parte del mismo, pero que desempeñan funciones importantes para su correcto funcionamiento, como las costillas y el diafragma y el sistema cardiovascular central, que proporciona arterias y venas pulmonares [3].
 
-Las dos fases principales de la ventilación mecánica son la inspiración y la espiración. Durante la inspiración, se contrae el diafragma, aplanándose y descendiendo; esto aumenta el volumen torácico, mientras la espiración se produce por relajación muscular y retroceso elástico. Estos cambios de volumen causan a su vez variaciones de presión que pueden ser registradas.
+Las dos fases principales de la ventilación mecánica son la inspiración y la espiración. Durante la inspiración, se contrae el diafragma, aplanándose y descendiendo; esto aumenta el volumen torácico, mientras la espiración se produce por relajación muscular y retroceso elástico. Estos cambios de volumen causan a su vez variaciones de presión que pueden ser registradas [1].
 
 
 <img width="250" height="346" alt="Image" src="https://github.com/user-attachments/assets/9ec903b8-fe2b-4ae3-9821-fb3c8d7d02e3" />
