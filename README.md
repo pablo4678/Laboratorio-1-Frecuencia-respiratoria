@@ -63,7 +63,7 @@ void loop()
 ```
 
 # Procesamiento de la señal y obtención de la frecuencia respiratoria
-Se usó MATLAB para conectarse mediante el puerto serial con el Arduino, para después de recibir los datos de presión graficarlos en tiempo real, el usuario selecciona la longitud de la grabación de datos. Luego esos datos se guardan en un archivo .mat para posteriormente ser procesados y obtener la medida de la frecuencia respiratoria.
+Se usó MATLAB para conectarse mediante el puerto serial con el Arduino, para después de recibir los datos de presión graficarlos en tiempo real, el usuario selecciona la longitud de la grabación de datos. Luego esos datos se guardan en un archivo .mat para posteriormente ser procesados y obtener la medida de la frecuencia respiratoria.\
 ![señal sin procesar](https://github.com/user-attachments/assets/43122bc5-e0b7-4836-b9fb-1caafae5ba8a)
 
 Figura 3. Señal sin procesar
