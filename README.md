@@ -114,6 +114,11 @@ El segundo críterio que se usó, para distinguir si la señal respiratoria, fue
 
 # Análisis de resultados y conclusiones
 
+Analizando las gráficas obtenidas durante el habla y el reposo, notamos varias cosas. En primer lugar, el algoritmo para calcular la frecuencia respiratoria fue mucho más exacto, pues esta señal, por su morfología, tiende a ser más uniforme, lo que favorece la correcta identificación de los picos. Por otra parte, la señal tomada durante el habla tiene una morfología más irregular; esto produce que se tomen algunos falsos positivos. Para corregir esto en el futuro, se podría utilizar un sensor más sensible y especializado en aplicaciones biomédicas, o usar algoritmos más avanzados de identificación de picos.
+
+Comparando las frecuencias respiratorias y la morfología de las dos señales, las métricas más efectivas para distinguir entre una persona que solo está respirando sin verbalizar y otra que está hablando son la densidad espectral de potencia, que suele tener mayores componentes en una frecuencia baja durante el habla debido a la ralentización de la respiración durante este periodo y el aumento de la asimetría de la señal debido al aumento de la duración de la fase espiratoria.
+
+Evaluando el desempeño del prototipo construido en el laboratorio, y sus limitaciones podemos decir que el monitoreo de frecuencia respiratorio mediante un sensor de presión es una buena alternativa de bajo costo, sobre todo para analizar la frecuencia respiratoria de una persona mientras no realiza tareas de verbalización, también sería conveniente el uso de otros sensores que midan distintas variables que se alteran durante la respiración como la temperatura o la concentración de CO₂ para obtener resultados más precisos.
 # Bibliografía
 [1] S. Fox, Ed., Fisiología respiratoria, en Fisiología humana, 15.ª ed. New York, NY, USA: McGraw Hill Education, 2023. [En línea]. Disponible en: https://accessmedicina-mhmedical-com.ezproxy.umng.edu.co/content.aspx?bookid=3384&sectionid=281683931 
 
