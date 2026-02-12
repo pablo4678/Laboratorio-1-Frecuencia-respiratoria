@@ -27,7 +27,7 @@ Evaluar la influencia del habla en el patrón respiratorio
 
 Durante el proceso de ventilación respiratoria, como mencionamos anteriormente, hay variaciones de presión; según Guyton, la presión alveolar varía desde el rango de -1 cmH2O hasta un máximo de 1 cm H₂O (-1,96 hPa - 1,96 hPa) [4].
 
-El sensor bmp280 es un sensor de presión atmosférica. La resolución del mismo es de 0,16 Pa, a la vez que tiene una precisión relativa de ±0,12 Pa, por lo que consideramos que es adecuado para hacer una medición adecuada de los cambios de presión y poder usar los datos extraídos por el mismo para graficar el patrón respiratorio y calcular la frecuencia respiratoria [5].
+El sensor bmp280 es un sensor de presión atmosférica de tipo piezoelectrico. La resolución del mismo es de 0,16 Pa, a la vez que tiene una precisión relativa de ±0,12 Pa, por lo que consideramos que es adecuado para hacer una medición adecuada de los cambios de presión y poder usar los datos extraídos por el mismo para graficar el patrón respiratorio y calcular la frecuencia respiratoria [5].
 
 
 <img width="412" height="469" alt="image" src="https://github.com/user-attachments/assets/22df451b-1e0e-4d00-b0cf-89d5b3d824f4" />\
@@ -35,7 +35,32 @@ Figura 2. Variación de presiones durante la respiración\
 Fuente: Guyton [4].
 
 
-# Proceso de conversión analoga-digital
+# Transducción y comunicación serial
+El sensor bmp280 es un sensor de tipo piezoelectrico, es decir que cuando una presión deforma el material al aplicarse un esfuerzo se produce una polarización eléctrica. Los valores del transductor piezoelectrico son convertidos por un conversor ADC integrado al sensor y envía la información en formato de 16 bits. Para transmitir los datos al computador y hacer la comunicación serial se usó un Arduino Uno, y la librería <BMP280_DEV.h>. La frecuencia de muestreo usada es de 16Hz, que cumple el teorema de NYquist para señales respiratorias.
+```
+#include <BMP280_DEV.h>
+
+float temperature, pressure, altitude;
+BMP280_DEV bmp280;
+
+void setup()
+{
+    Serial.begin(115200);
+
+    bmp280.begin(BMP280_I2C_ALT_ADDR);
+
+    bmp280.setTimeStandby(TIME_STANDBY_62MS); // ~16 Hz
+    bmp280.startNormalConversion();
+}
+
+void loop()
+{
+    if (bmp280.getMeasurements(temperature, pressure, altitude))
+    {
+        Serial.println(pressure);  // SOLO presión
+    }
+}
+```
 
 # Procesamiento de la señal y obtención de la frecuencia respiratoria
 
