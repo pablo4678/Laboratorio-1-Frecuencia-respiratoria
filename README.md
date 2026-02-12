@@ -98,8 +98,10 @@ Figura 5. Detección de picos de la señal durante el reposo
 
 
 Figura 6. Detección de picos de la señal durante el habla
-## Análisis en el dominio de la frecuencia e identificación de estado}
+## Análisis en el dominio de la frecuencia e identificación de estado en el que se tomó la señal
 Para obtener una representación de la señal en el dominio de la frecuencia se hizo uso de la transformada rápida de fourier,y se usó la detección de picos, y una comparación con la señal temporal para hallar la frecuencia dominante.
+
+El primer criterio para determinar si la señal se tomó durante el habla o durante el reposo fue la densidad espectral de potencia, como se observa en las gráficas que se muestran el componente en baja frecuencia es más dominante en la señal durante el habla.
 
 ![densidad espectral de potencia](https://github.com/user-attachments/assets/21c70d91-1c3e-4d8a-b73e-6ccee0350725)
 
@@ -108,6 +110,8 @@ Figura 6. Densidad espectral de potencia (durante el reposo)
 <img width="542" height="416" alt="image" src="https://github.com/user-attachments/assets/5bc68e65-76a3-4543-adc8-1f9e7958ad21" />
 
 Figura 7. Densidad espectral de potencia (durante el habla)
+El segundo críterio que se usó, para distinguir si la señal respiratoria, fue tomada con el sujeto en silencio o durante el habla; fue analizar la asimetría de la señal temporal, pues durante el habla la fase espiratoria tiende a ser mayor lo que causa que sea más asimétrica.
+
 # Análisis de resultados y conclusiones
 
 # Bibliografía
