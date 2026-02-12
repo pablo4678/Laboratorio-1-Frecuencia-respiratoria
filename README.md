@@ -73,10 +73,14 @@ void loop()
 # Análisis de resultados y conclusiones
 
 # Bibliografía
-[1] S. Fox, Ed., Fisiología respiratoria, en Fisiología humana, 15.ª ed. New York, NY, USA: McGraw Hill Education, 2023. [En línea]. Disponible en: https://accessmedicina-mhmedical-com.ezproxy.umng.edu.co/content.aspx?bookid=3384&sectionid=281683931 \\
-[2] J. Canet, Fisiología respiratoria, 2006. [En línea]. Disponible en: http://www.scartd.org/arxius/fisioresp06.pdf \\
-[3] H. J. Huang, “The respiratory system,” en The Big Picture: Medical Biochemistry, L. W. Janson y M. E. Tischler, Eds. New York, NY, USA: McGraw-Hill Education, 2018.[En línea]. Disponible en:https://accessmedicine-mhmedical-com.ezproxy.umng.edu.co/content.aspx?bookid=2355&sectionid=185845306 \\
-[4] J. E. Hall, Guyton and Hall Textbook of Medical Physiology, 13ª ed., Philadelphia, PA, USA: Elsevier, 2016. \\
+[1] S. Fox, Ed., Fisiología respiratoria, en Fisiología humana, 15.ª ed. New York, NY, USA: McGraw Hill Education, 2023. [En línea]. Disponible en: https://accessmedicina-mhmedical-com.ezproxy.umng.edu.co/content.aspx?bookid=3384&sectionid=281683931 \
+
+[2] J. Canet, Fisiología respiratoria, 2006. [En línea]. Disponible en: http://www.scartd.org/arxius/fisioresp06.pdf \
+
+[3] H. J. Huang, “The respiratory system,” en The Big Picture: Medical Biochemistry, L. W. Janson y M. E. Tischler, Eds. New York, NY, USA: McGraw-Hill Education, 2018.[En línea]. Disponible en:https://accessmedicine-mhmedical-com.ezproxy.umng.edu.co/content.aspx?bookid=2355&sectionid=185845306 \
+
+[4] J. E. Hall, Guyton and Hall Textbook of Medical Physiology, 13ª ed., Philadelphia, PA, USA: Elsevier, 2016. \
+
 [5] Bosch Sensortec, “BMP280 Digital Pressure Sensor Datasheet,” datasheet, rev. 1.19, oct. 2021. [En línea].
 Disponible en: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf
 
