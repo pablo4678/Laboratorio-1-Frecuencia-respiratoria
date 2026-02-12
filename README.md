@@ -82,11 +82,17 @@ P_final = P_filtrada - mean(P_filtrada);
 
 Figura 4. Señal filtrada
 
-# Comparación de gráficas
+## Obtencion de la frecuencia respiratoria
+Para poder hallar la frecuencia respiratoria se analizó la señal tanto en el dominio del tiempo como en el de la frecuencia, en primer lugar se implementó un algoritmo para detectar picos en la señal, despues de detectar un pico tiene un periodo refractario de 1,5 segundos para evitar falsos positivos.
+Cálculo de la frecuencia respiratoria:
+```
+duracion_min = (t(end)-t(1))/60;
+num_respiraciones = length(pks);
+FR = num_respiraciones/duracion_min;
+```
+![senal_fr_reposo](https://github.com/user-attachments/assets/d737f3ec-1ca8-4cac-b04b-b6022bdc2efa)
 
-
-# Análisis en el dominio de la frecuencia
-
+Figura 5. Detección de picos de la señal durante el reposo
 # Análisis de resultados y conclusiones
 
 # Bibliografía
