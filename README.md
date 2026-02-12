@@ -83,7 +83,7 @@ P_final = P_filtrada - mean(P_filtrada);
 Figura 4. Señal filtrada
 
 ## Obtencion de la frecuencia respiratoria
-Para poder hallar la frecuencia respiratoria se analizó la señal tanto en el dominio del tiempo como en el de la frecuencia, en primer lugar se implementó un algoritmo para detectar picos en la señal, despues de detectar un pico tiene un periodo refractario de 1,5 segundos para evitar falsos positivos.
+Para poder hallar la frecuencia respiratoria se analizó la señal tanto en el dominio del tiempo, en primer lugar se implementó un algoritmo para detectar picos en la señal, despues de detectar un pico tiene un periodo refractario de 1,5 segundos para evitar falsos positivos.
 Cálculo de la frecuencia respiratoria:
 ```
 duracion_min = (t(end)-t(1))/60;
@@ -93,6 +93,21 @@ FR = num_respiraciones/duracion_min;
 ![senal_fr_reposo](https://github.com/user-attachments/assets/d737f3ec-1ca8-4cac-b04b-b6022bdc2efa)
 
 Figura 5. Detección de picos de la señal durante el reposo
+
+![senal_habla_fr](https://github.com/user-attachments/assets/b5549031-a062-4fd1-89ee-70035f22ab5b)
+
+
+Figura 6. Detección de picos de la señal durante el habla
+## Análisis en el dominio de la frecuencia e identificación de estado}
+Para obtener una representación de la señal en el dominio de la frecuencia se hizo uso de la transformada rápida de fourier,y se usó la detección de picos, y una comparación con la señal temporal para hallar la frecuencia dominante.
+
+![densidad espectral de potencia](https://github.com/user-attachments/assets/21c70d91-1c3e-4d8a-b73e-6ccee0350725)
+
+Figura 6. Densidad espectral de potencia (durante el reposo)
+
+<img width="542" height="416" alt="image" src="https://github.com/user-attachments/assets/5bc68e65-76a3-4543-adc8-1f9e7958ad21" />
+
+Figura 7. Densidad espectral de potencia (durante el habla)
 # Análisis de resultados y conclusiones
 
 # Bibliografía
