@@ -68,7 +68,19 @@ Se usó MATLAB para conectarse mediante el puerto serial con el Arduino, para de
 
 Figura 3. Señal sin procesar
 ## Filtros
+El sensor bmp280 cuenta con un filtro incorporado de tipo IIR de orden 4 para evitar que ruido tipo impulso altere la señal, adicionalmente se aplico un filtro pasabajos de segundo orden sin desfase para suavizar la señal y eliminar ruido. La frecuencia de corte del filtro se seleccionó como 1,5 Hz. Teniendo en cuenta que la frecuencia respiratoria normal de una persona se encuentra entre 12 a 20 rpm, mientras más de 28 se considera taquipneica [6]. 
+filtro aplicado:\
+```
+fc = 1.1;
+orden = 2;
+[b,a] = butter(orden,fc/(Fs/2),'low');
 
+P_filtrada = filtfilt(b,a,P);
+P_final = P_filtrada - mean(P_filtrada);
+```
+![senal_filtrada](https://github.com/user-attachments/assets/3dd358d9-7d42-4f75-83f0-002c8eeb399d)
+
+Figura 4. Señal filtrada
 
 # Comparación de gráficas
 
@@ -88,4 +100,6 @@ Figura 3. Señal sin procesar
 
 [5] Bosch Sensortec, “BMP280 Digital Pressure Sensor Datasheet,” datasheet, rev. 1.19, oct. 2021. [En línea].
 Disponible en: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf
+
+[6] M. J. Tipton, A. Harper, J. F. R. Paton y J. T. Costello, “The human ventilatory response to stress: rate or depth?,” J. Physiol., vol. 595, no. 17, pp. 5729–5752, Sep. 2017, doi: 10.1113/JP274596.
 
