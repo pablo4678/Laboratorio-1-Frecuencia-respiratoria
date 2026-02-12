@@ -107,7 +107,8 @@ El primer criterio para determinar si la señal se tomó durante el habla o dura
 
 Figura 6. Densidad espectral de potencia (durante el reposo)
 
-<img width="542" height="416" alt="image" src="https://github.com/user-attachments/assets/5bc68e65-76a3-4543-adc8-1f9e7958ad21" />
+
+<img width="521" height="416" alt="img frec" src="https://github.com/user-attachments/assets/d809fbe8-4745-41af-94b0-3bb3d730825f" />
 
 Figura 7. Densidad espectral de potencia (durante el habla)
 El segundo críterio que se usó, para distinguir si la señal respiratoria, fue tomada con el sujeto en silencio o durante el habla; fue analizar la asimetría de la señal temporal, pues durante el habla la fase espiratoria tiende a ser mayor lo que causa que sea más asimétrica.
